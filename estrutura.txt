@@ -1,0 +1,6 @@
+projeto/
+├── index.html
+├── css/
+│   └── style.css
+└── img/
+    └── [imagens profissionais]
