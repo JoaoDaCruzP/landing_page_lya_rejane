@@ -274,7 +274,7 @@
                     <form class="contact-form" id="contactForm" method="POST" action="#">
                         <!-- Campo de Email -->
                         <div class="form-group">
-                            <label for="email" class="form-label">Email <span class="required">*</span></label>
+                            <label for="email" class="form-label">Email </label>
                             <input 
                                 type="email" 
                                 id="email" 
@@ -288,38 +288,35 @@
 
                         <!-- Campo de Telefone -->
                         <div class="form-group">
-                            <label for="phone" class="form-label">Telefone <span class="required">*</span></label>
-                            <input 
-                                type="tel" 
-                                id="phone" 
-                                name="phone" 
-                                class="form-input" 
-                                placeholder="(85) 99999-9999" 
-                                required
-                            >
-                            <span class="form-error" id="phoneError"></span>
-                        </div>
+    <label for="phone" class="form-label">Telefone </label>
+    <input 
+        type="tel" 
+        id="phone" 
+        name="phone" 
+        class="form-input" 
+        placeholder="(86) 99999-9999" 
+    >
+    <span class="form-error" id="phoneError"></span>
+</div>
 
-                        <!-- Campo de Mensagem -->
-                        <div class="form-group form-group-full">
-                            <label for="message" class="form-label">Mensagem <span class="required">*</span></label>
-                            <textarea 
-                                id="message" 
-                                name="message" 
-                                class="form-textarea" 
-                                placeholder="Conte-me em que posso ajudar..." 
-                                rows="4" 
-                                required
-                            ></textarea>
-                            <span class="form-error" id="messageError"></span>
-                        </div>
+<!-- Campo de Mensagem -->
+<div class="form-group form-group-full">
+    <label for="message" class="form-label">Mensagem </label>
+    <textarea 
+        id="message" 
+        name="message" 
+        class="form-textarea" 
+        placeholder="Conte-me em que posso ajudar..." 
+        rows="4" 
+    ></textarea>
+    
+</div>
 
-                        <!-- Botão de Envio -->
-                        <button type="submit" class="btn btn-primary btn-block">
-                            Enviar Mensagem
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-
+<!-- Botão de Envio -->
+<button type="submit" class="btn btn-primary btn-block">
+    Enviar Mensagem
+    <i class="fas fa-paper-plane"></i>
+</button>
                         <!-- Mensagem de Sucesso -->
                         <div class="form-success" id="formSuccess" style="display: none;">
                             <i class="fas fa-check-circle"></i>
